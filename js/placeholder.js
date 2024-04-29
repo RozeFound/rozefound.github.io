@@ -52,17 +52,7 @@ constructor() {
     
     this.setUpVars()
     this.setUpListeners()
-    // this.setUpGui()
     this.update()
-}
-
-setUpGui() {
-    const pane = new Tweakpane()
-    const folder = pane.addFolder({
-    expanded: false,
-    title: 'Settings',
-    })
-    folder.addInput(this.config, 'bgColor')
 }
 
 setUpVars() {
