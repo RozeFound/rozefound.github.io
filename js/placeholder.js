@@ -169,14 +169,7 @@ update(t) {
     
     this.ctx.clearRect(0, 0, this.wWidth, this.wHeight)
     this.ctx.drawImage(this.shadowCanvas, 0, 0)
-    
-    // show fps
-    const fps = Math.round(1 / (t - prevTimestamp) * 1000)
-    this.fpsHistory.unshift(fps)
-    this.fpsHistory.length = 5
-    this.ctx.font = '16px sans-serif'
-    this.ctx.fillText(this.fpsHistory.reduce((a,b) => a+b) / 5, 50, 50)
-    
+        
     window.requestAnimationFrame(this.update.bind(this))
 }
 }
