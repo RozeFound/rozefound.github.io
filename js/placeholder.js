@@ -144,7 +144,6 @@ draw(ctx) {
 }
 
 update(t) {
-    const prevTimestamp = this.timestamp * 5000
     
     if (t) {
     let shiftNeeded = false
