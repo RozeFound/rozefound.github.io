@@ -22,7 +22,11 @@ body {
     padding: 0 !important;
 }
 
-.center {
+#container {
+    position: relative;
+}
+#container canvas, #overlay {
+    position: absolute;
     display: flex;
     justify-content: center;
     align-items: center;
