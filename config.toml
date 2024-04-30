@@ -1,0 +1,18 @@
+# The URL the site will be built for
+base_url = "https://rozefound.github.io"
+theme="particle"
+
+title = "RozeFound`s Personal Website"
+description = "Hello there! How did you happened to be there?"
+
+[extra]
+# User settings
+username = "Project D.D."
+user_description = "C++/Python developer, mainly experienced in low level interaction with the OS."
+user_title = "Software Developer\nReverse Engineer"
+email = "rozefound@proton.me"
+github_username =  "RozeFound"
+telegram_username = "ddengaev"
+
+# Google-analytics
+google_analytics.id = "G-0GN13140NK"
